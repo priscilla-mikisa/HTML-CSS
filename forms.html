@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_form</title>
+    <style>
+      #form{
+        width: 50;
+        margin:0 auto;
+        padding: 12px;
+        border: 5px solid;
+      } 
+      .input{
+        padding: 8px 12px;
+        border-radius: 5px;
+        border: 5px solid;
+      }
+      button{
+        padding: 4px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        border: none;
+      }
+      #message{
+        display: none;
+        background: #f1f1f1;
+        color: blue;
+        position: relative;
+        padding: 20px;
+        margin-top: 10px;
+      }
+       #message p{
+        padding: 10px 40px;
+        font-size: 18px;
+       }
+       .valid{
+        color: green;
+       }
+       .valid ::before{
+        position: relative;
+        left: -35px;
+        content: "checkmark";
+       }
+       .invalid{
+        color: red;
+       }
+       .invalid ::before{
+        position: relative;
+        right: -35px;
+        content: "x";
+       }
+    </style>
+</head>
+<body>
+    <form id="form">
+    Already have an accoynt? Sign In
+    <h1>Sign Up</h1>
+    <label for="name">Name:</label></br>
+    <input name="name" placeholder="Enter name" type="text" required="input"/>
+    </br>
+    </br>
+    <label for="email">Email:</label></br>
+    <input email="email" placeholder="Enter email" type="text" required="input"/>
+    </br>
+    </br>
+    <label for="password">password:</label></br>
+    <input type="password" placeholder="Enter password" type="letters">
+    </br>
+    </br>
+    <input type="checkbox"?>
+    <label>I have read and agree with the terms of service and our Privacy Policy. </label>style></br>
+</br>
+<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+    
